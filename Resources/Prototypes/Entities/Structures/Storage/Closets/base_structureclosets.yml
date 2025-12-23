@@ -54,9 +54,9 @@
           bounds: "-0.25,-0.48,0.25,0.48"
         density: 75
         mask:
-        - MachineMask
+        - TableMask # Damnationm, table > machine; anti-cheese
         layer:
-        - MachineLayer
+        - TableLayer # Damnation, table > machine see above
   - type: EntityStorage
   - type: ContainerContainer
     containers:
@@ -115,6 +115,7 @@
     stateDoorClosed: generic_door
   - type: StaticPrice
     price: 50 # Frontier: 75<50 - TODO: material value rework
+  #- type: Climbable # Damnation, preventing mob pathing exploits
 
 # steel closet base (that can be constructed/deconstructed)
 - type: entity
@@ -275,9 +276,9 @@
           bounds: "-0.25,-0.48,0.25,0.48"
         density: 350
         mask:
-        - MachineMask
+        - TableMask # Damnation, anti-cheese
         layer:
-        - MachineLayer
+        - TableLayer # Damnation, anti-cheese
   - type: EntityStorage
   - type: ContainerContainer
     containers:
