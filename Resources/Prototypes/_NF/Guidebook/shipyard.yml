@@ -31,6 +31,7 @@
   - ShipyardGarden
   - ShipyardGasbender
   - ShipyardGeode
+  - ShipyardGondola
   - ShipyardHammer
   - ShipyardHauler
   - ShipyardHarbormaster
@@ -196,6 +197,11 @@
   id: ShipyardGeode
   name: guide-entry-shipyard-geode
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Geode.xml"
+
+- type: guideEntry
+  id: ShipyardGondola
+  name: guide-entry-shipyard-gondola
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Gondola.xml"
 
 - type: guideEntry
   id: ShipyardHarbormaster
