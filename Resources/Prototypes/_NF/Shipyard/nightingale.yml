@@ -1,0 +1,43 @@
+# Author Info
+# AlexisLuna
+# Discord leximoonlight
+# GitHub https://github.com/AlexisMoonlight
+
+# Shuttle Notes:
+#
+
+- type: vessel
+  id: Nightingale
+  parent: BaseVessel
+  name: SWM Nightingale
+  description: A research and medical shuttle. Most medical components were disassembled to comply with regulations.\
+  price: 75000 # ~61000 from appraisegrid + >20% upsell
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/nightingale.yml
+  guidebookPage: ShipyardNightingale
+  class:
+  - Science
+  - Medical
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Nightingale
+  mapName: 'Nightingale'
+  mapPath: /Maps/_NF/Shuttles/nightingale.yml
+  minPlayers: 0
+  stations:
+    Nightingale:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Nightingale {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

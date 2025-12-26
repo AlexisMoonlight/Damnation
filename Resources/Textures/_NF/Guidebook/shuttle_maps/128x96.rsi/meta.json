@@ -10,7 +10,7 @@
         "barge, eagle, hauler, phoenix, placebo, skipper, sparrow by Mygnol (discord/github)",
         "izakaya by AF-Buyrcsp2 (discord/github)",
         "nook by Chervjakys (discord/github)",
-        "gondola by AlexisLuna (discord/github)"
+        "gondola, nightingale by AlexisLuna (discord/github)"
     ],
     "metaAtlas": false,
     "size": {
@@ -155,6 +155,9 @@
         },
         {
             "name": "gondola"
+        },
+        {
+            "name": "nightingale"
         }
     ]
 }

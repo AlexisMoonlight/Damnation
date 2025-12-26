@@ -85,6 +85,7 @@ guide-entry-shipyard-lyrae = Lyrae
 guide-entry-shipyard-mccargo = McCargo
 guide-entry-shipyard-mcdelivery = McDelivery
 guide-entry-shipyard-nightlight = Nightlight
+guide-entry-shipyard-nightingale = Nightingale
 guide-entry-shipyard-nook = Nook
 guide-entry-shipyard-pathfinder = Pathfinder
 guide-entry-shipyard-phoenix = Phoenix

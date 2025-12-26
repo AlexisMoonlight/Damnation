@@ -47,6 +47,7 @@
   - ShipyardMcCargo
   - ShipyardMcDelivery
   - ShipyardNightlight
+  - ShipyardNightingale
   - ShipyardNook
   - ShipyardPathfinder
   - ShipyardPhoenix
@@ -277,6 +278,11 @@
   id: ShipyardNightlight
   name: guide-entry-shipyard-nightlight
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Nightlight.xml"
+
+- type: guideEntry
+  id: ShipyardNightingale
+  name: guide-entry-shipyard-nightingale
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Nightingale.xml"
 
 - type: guideEntry
   id: ShipyardNook
